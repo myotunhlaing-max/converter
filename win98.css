@@ -1,0 +1,87 @@
+/* Win98 background */
+body.win98 { 
+  background-image: url("https://drive.google.com/file/d/1tS8DdzTM50NWycG08gtBJGb7OBdZY-RW/view?usp=sharing");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  font-family: "Tahoma", sans-serif;
+  color: white;
+  position: relative;
+}
+.title{
+  justify-content: center;
+  display: flex;
+  color: brown;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+  color: #000;
+  margin-top: 10px;
+  font-size: 1em;
+  
+
+}
+
+/* Desktop icons container */
+.desktop { 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px;
+  gap: 40px;
+}
+
+/* Each icon */
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80px;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  text-shadow: 1px 1px 2px black;
+}
+
+/* Icon image */
+.icon img {
+  width: 48px;
+  height: 48px;
+  image-rendering: pixelated; /* retro feel */
+}
+
+/* Hover effect like Win98 highlight */
+.icon:hover span {
+  background: navy;
+  border: 1px dotted white;
+  padding: 2px 4px;
+}
+.box {
+  margin: 20px auto;
+  padding: 20px;
+  background: rgba(0,0,0,0.5);
+  width: 300px;
+  border-radius: 10px;
+}
+
+input {
+  padding: 5px;
+  margin: 5px;
+}
+
+button {
+  padding: 5px 15px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.back {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px;
+  background: rgba(255,255,255,0.3);
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}
